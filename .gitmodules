@@ -1,0 +1,19 @@
+[submodule "molokai"]
+path = vimfiles/bundle/molokai
+url = https://github.com/tomasr/molokai
+
+[submodule "nerdtree"]
+path = vimfiles/bundle/nerdtree
+url = https://github.com/scrooloose/nerdtree
+
+[submodule "rust.vim"]
+path = vimfiles/bundle/rust.vim
+url = https://github.com/wting/rust.vim
+
+[submodule "vim-airline"]
+path = vimfiles/bundle/vim-airline
+url = https://github.com/bling/vim-airline
+
+[submodule "vim-colors-solarized"]
+path = vimfiles/bundle/vim-colors-solarized
+url = https://github.com/altercation/vim-colors-solarized
