@@ -8,7 +8,7 @@ url = https://github.com/scrooloose/nerdtree
 
 [submodule "rust.vim"]
 path = vimfiles/bundle/rust.vim
-url = https://github.com/wting/rust.vim
+url = https://github.com/rust-lang/rust.vim 
 
 [submodule "vim-airline"]
 path = vimfiles/bundle/vim-airline
