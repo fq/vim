@@ -1,7 +1,3 @@
-[submodule "molokai"]
-path = vimfiles/bundle/molokai
-url = https://github.com/tomasr/molokai
-
 [submodule "nerdtree"]
 path = vimfiles/bundle/nerdtree
 url = https://github.com/scrooloose/nerdtree
