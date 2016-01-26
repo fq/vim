@@ -13,9 +13,9 @@ nmap k gk
 set backspace=indent,eol,start
 set laststatus=2
 
-colorscheme solarized
 
 if has("gui_running")
+    colorscheme solarized
     let g:solarized_contrast="high" 
     set background=dark
     set lines=40 columns=100
