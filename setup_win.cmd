@@ -1,6 +1,7 @@
-set vimrc = %HOMEDRIVE%%HOMEPATH%\_vimrc
-set vimfiles = %HOMEDRIVE%%HOMEPATH%\vimfiles
+set homedir=%HOMEDRIVE%%HOMEPATH%
 
-mklink %vimrc% _vimrc
-mklink /D %vimfiles% vimfiles
+mklink %homedir%\_vimrc %~dp0_vimrc
+mklink /D %homedir%\vimfiles %~dp0vimfiles
+
+
 
