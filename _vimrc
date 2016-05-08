@@ -13,7 +13,6 @@ nmap k gk
 set backspace=indent,eol,start
 set laststatus=2
 
-
 if has("multi_byte")
     if &termencoding == ""
         let &termencoding = &encoding
@@ -28,8 +27,12 @@ if has("gui_running")
     colorscheme solarized
     let g:solarized_contrast="high"
     set background=dark
-    set lines=40 columns=100
-    set guifont=Source_Code_Pro:h12
+    set lines=40 columns=120
+    if has("gui_win32")
+        set guifont=Source_Code_Pro:h11
+    else
+        set guifont=Source\ Code\ Pro\ 11
+    endif
 endif
 if &diff
     set diffopt+=iwhite
