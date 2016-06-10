@@ -20,4 +20,4 @@ url=https://github.com/ctrlpvim/ctrlp.vim.git
 
 [submodule "vim-markdown"]
 path=vimfiles/bundle/vim-markdown
-https://github.com/plasticboy/vim-markdown.git
+url=https://github.com/plasticboy/vim-markdown.git
