@@ -48,4 +48,5 @@ autocmd StdinReadPre * let s:std_in=1
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+let g:vim_markdown_folding_disabled = 1
 
