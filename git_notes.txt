@@ -1,4 +1,5 @@
 
+git clone --recursive https://github.com/fq/vim.git
 git pull --recurse-submodules
 git config --global core.excludesfile ~/.gitignore_global
 
