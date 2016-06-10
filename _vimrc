@@ -29,12 +29,12 @@ if has("gui_running")
     set background=dark
     set lines=35 columns=110
     if has("gui_win32")
-        set guifont=Source_Code_Pro:h11
+        set guifont=Source_Code_Pro:h10
     else
         set guifont=Source\ Code\ Pro\ 11
     endif
 
-    set listchars=tab:▸\ ,eol:¬,space:·
+    set listchars=tab:→\ ,eol:¬,space:·
     set list
     highlight NonText guifg=#4a4a59
     highlight SpecialKey guifg=#4a4a59 guibg=background
@@ -49,4 +49,5 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 let g:vim_markdown_folding_disabled = 1
+
 
