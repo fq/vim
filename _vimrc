@@ -7,7 +7,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set smarttab
-set expandtab
+"set expandtab
 nmap j gj
 nmap k gk
 set backspace=indent,eol,start
