@@ -6,8 +6,9 @@ set cursorline
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set smarttab
-set expandtab
+"set smarttab
+"set expandtab
+set noexpandtab
 nmap j gj
 nmap k gk
 set backspace=indent,eol,start
