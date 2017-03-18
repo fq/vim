@@ -13,6 +13,9 @@ nmap j gj
 nmap k gk
 set backspace=indent,eol,start
 set laststatus=2
+set foldmethod=syntax
+set foldlevel=99
+nnoremap <space> za
 
 if has("multi_byte")
     if &termencoding == ""
