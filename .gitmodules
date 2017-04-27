@@ -21,3 +21,9 @@ url=https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "vim-markdown"]
 path=vimfiles/bundle/vim-markdown
 url=https://github.com/plasticboy/vim-markdown.git
+
+[submodule "gruvbox"]
+path=vimfiles/bundle/gruvbox
+url=https://github.com/morhetz/gruvbox.git
+
+
